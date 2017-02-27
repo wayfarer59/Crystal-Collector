@@ -1,0 +1,46 @@
+body{
+	background-image: url("weather.png");
+}
+
+
+h1{
+	background:orange;
+	padding: 10px;
+	float: left;
+	color: white;
+}
+
+#rules{
+	background:beige;
+	color:green;
+	padding: 10px;
+}
+
+#random-number{
+	background:green;
+	font-size: 20px;
+	padding: 20px;
+}
+
+#counter{
+	background:turquoise;
+	padding: 20px;
+}
+
+#match{
+	background: blue;
+	padding: 20px;
+	font-size: 20px;
+}
+
+#score{
+	background: blue;
+	padding: 10px;
+	font-size:20px;
+	margin-top: 10px;
+} 
+
+.button{
+
+	/*width: 20%;*/
+}
