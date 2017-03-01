@@ -14,19 +14,23 @@
 <!-- // header -->
 
 <div class="row" >
-<h1 class="col-sm-4" >Crystals Collector</h1>
+<!-- <div class="col-sm-4"></div> -->
+<h1 class="col-sm-12 text-center" >Crystals Collector</h1>
+<!-- <div class="col-sm-4"></div> -->
 </div>
 
-<!-- // games instructions -->
-
+<!-- // games instructions --> 
+ 
 <div class="row">
-	<div id="rules" class="col-sm-4">
-	<p>askskksjfksjfkjsfkljasfjdskfjksadkjfkldsjfkdsjfklsdjfklsdjfkljsdkljfkldsj</p>
-	<p>akakakakalalakskkdfjfjeiiejfkdlslalalsdjfjfjskksksjdkakakdjdjd</p>
-	<p>sdlksjfsiodjfiowejfiowejiofjeiofjiojeiwojfioewj</p>
-	<p>amfoijiowefiojwefiojewiofjewiojfdsjdfisiofjsiojiofj</p>
+	<div class="col-sm-3"> </div>
+	<div id="rules" class="col-sm-6 text-center">
+	<h4>You will be given a random number at the start of the game.</h4>
+      <h4>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</h4>
+      <h4>You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.</h4>
+      <h4>The value of each crystal is hidden from you until you click on it.</h4>
+      <h4>Each time when the game starts, the game will change the values of each crystal</h4>
 	</div>
-	<div class="col-sm-8"></div>
+	<div class="col-sm-3"></div>
 
 </div>
 
@@ -35,41 +39,54 @@
 <div class="row" >
 	<!-- // random number -->
 	
-	<div class="col-sm-1" id="random-number" > </div>
+	<div class="col-sm-4" ></div> 
 
-	<div class="col-sm-1" ></div>
-<!-- wins and looses -->
-    <div id="counter" class="col-sm-2">
-	<p>Wins: <span id="win-counter"></span></p>
-	<p>Loss: <span id="loss-counter"> </span></p>
-	</div>  
+	<div class="text-center col-sm-4" id="random-number" > </div>
+
+	<div class="col-sm-4" ></div> 
+
+    
 
 
 </div>
 
 <!-- //image container -->
 <div class="row" >
-	<div class="col-sm-9">
-<button class="button"> <img  src="assets/images/1.png"> </button>
-<button class="button" ><img  src="assets/images/ruby.jpg"></button>
-<button class="button">	<img  src="assets/images/2.jpg"></button>
-<button class="button" > <img src="assets/images/peridot.jpg"> </button>
+	<div class="text-center col-sm-12">
+<button id="blue"><img  src="assets/images/blue.png"> </button>
+<button id="yellow"><img  src="assets/images/yellow.png"></button>
+<button id="red"><img  src="assets/images/red.png"></button>
+<button id="green"><img src="assets/images/green.png"> </button>
 	</div>
 </div>
-<!-- score container -->
-<div class="row" >
-	<div  class="col-sm-3">
-	<p id="score">Your Total Score Is: <span id="total-score"></span></p>
-	</div>	
 
-</div>
 
 <!--macthing number  -->
 <div class="row">
-	<div class="col-sm-1" id="match">
-	</div>
+	<div class="col-sm-4" ></div> 
+
+	<div class="col-sm-4 text-center " id="match">
 	
+	<div class="col-sm-4" ></div> 
+	</div>
 </div>
+
+ <!-- wins and looses -->
+
+ <div class="row">
+
+ <div class="col-sm-3"></div>
+
+ <div id="counter" class="text-center col-sm-6">
+	<p>Wins: <span id="win-counter">0</span></p>
+	<p>Loss: <span id="loss-counter">0</span></p>
+<div class="col-sm-3"></div>
+
+</div>	
+
+
+
+
 
 <script type="text/javascript" src="assets/javascript/game.js"></script>
 </body>

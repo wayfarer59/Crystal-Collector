@@ -14,33 +14,32 @@ h1{
 	background:beige;
 	color:green;
 	padding: 10px;
+
 }
 
 #random-number{
-	background:green;
+	background:#3dd059;
 	font-size: 20px;
 	padding: 20px;
+	margin-top: 20px;
+	color: white;
 }
+
 
 #counter{
 	background:turquoise;
 	padding: 20px;
-}
-
-#match{
-	background: blue;
-	padding: 20px;
+	margin-top: 20px;
+	color: white;
 	font-size: 20px;
 }
 
-#score{
-	background: blue;
-	padding: 10px;
-	font-size:20px;
-	margin-top: 10px;
-} 
-
-.button{
-
-	/*width: 20%;*/
+#match{
+	background: #317ec1;
+	padding: 20px;
+	font-size: 20px;
+	margin-top: 20px;
+	color: white;
 }
+
+
